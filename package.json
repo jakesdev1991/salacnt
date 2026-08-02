@@ -1,0 +1,23 @@
+{
+  "name": "salacnt",
+  "version": "1.0.0",
+  "description": "Simple counter web application with localStorage persistence",
+  "main": "code.js",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "npx eslint code.js || true"
+  },
+  "keywords": ["counter", "localStorage", "vanilla-js", "web-app"],
+  "author": "Jacob See <jake.s.dev1991@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "eslint": "^8.57.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
